@@ -4,7 +4,7 @@ from my_calculator import MyCalculator
 # 4. Pytest fixtures (like @Before in JUnit)
 @pytest.fixture
 def my_calc_inst() -> MyCalculator:
-    return MyCalculator
+    return MyCalculator()
 
 
 # 4.5 Using the fixture with parametrized function
